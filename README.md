@@ -56,6 +56,8 @@ You may need to double check the API Key is still correct. Take a look in the co
 
 To take a look at the up and coming movies by year or by genre, you need to call the right commands.
 
+*Each call will only give the first 10 responces.*
+
 For the year:
 
 ```bash
