@@ -52,24 +52,40 @@ You may need to double check the API Key is still correct. Take a look in the co
 
 ## 🍿 Step Four
 
-Install the packages from package.json
+To take a look at the up and coming movies by year or by genre, you need to call the right commands.
+
+For the year:
 
 ```bash
-npm start
+go run main.go year
 ```
+
+*You can only search movies from 2024 to 2029*
+
+For the genre:
+
+```bash
+go run main.go genre
+```
+
+*Here's a list of searchable genres: Action, Adult, Adventure, Animation, Biography, Comedy, Crime, Documentary, Drama, Family, Fantasy, Film-Noir, History, Horror, Musical, Mystery, Romance, Sci-Fi, Short, Sport, Thriller, War, Western*
 
 ## 🍿 Step Five
 
-Once you have the packages installed, set up your enviroment variables and are connected to your MongoDB you can run the application.
+Everything you search for in the CLI is saved to the data.log file.
+
+You can view the file in your IDE or via the terminal.
+
+To search the file in your terminal, use the view cmd and the number of lines you want to view.
 
 ```bash
-nodemon run start
+go run main.go view 5
 ```
 
-This should then allow you to run the application in your web browser in the following location: http://localhost:3000.
+When the data.log file gets too crowded or you have finished with the information you can clear the data with the clear cmd.
 
-From here you can set up a user and register and account and sign in.
+```bash
+go run main.go clear
+```
 
-Once you are signed in you can add reviews to books.
-
-If you need to add books you will need to set up an Admin account in your MongoDB and set the user to isAdmin: true this will enable that user to add, edit and delte books.
+This will clear the whole file so you can start again.
