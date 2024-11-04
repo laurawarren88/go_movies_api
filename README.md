@@ -2,7 +2,9 @@
 
 ## ⭐️ Overview
 
-This project uses a movies database api from [Rapid Api](https://rapidapi.com/hub). It tells you what movies are coming up based on the year or by genre, all depending what you search for in the command line.
+This project uses a Movies Database API from [Rapid API](https://rapidapi.com/hub).
+
+It tells you what movies are coming up based on the *year* or by *genre*, all depending what you search for in the command line.
 
 It uses:
 
@@ -48,7 +50,7 @@ Take a look 👀 around the file 📂 structure and see what is happening with V
 code .
 ```
 
-You may need to double check the API Key is still correct. Take a look in the config.json file for the location of the key. Compare this against the Key from [Rapid Api](https://rapidapi.com/SAdrian/api/moviesdatabase/playground/apiendpoint_b9f58be7-d8b9-405b-ad3a-48fc5117a2bf)
+You may need to double check the API Key is still correct. Take a look in the config.json file for the location of the key. Compare this against the Key from [Rapid API](https://rapidapi.com/SAdrian/api/moviesdatabase/playground/apiendpoint_b9f58be7-d8b9-405b-ad3a-48fc5117a2bf)
 
 ## 🍿 Step Four
 
@@ -60,7 +62,7 @@ For the year:
 go run main.go year
 ```
 
-*You can only search movies from 2024 to 2029*
+You can only search movies from *2024 to 2029*
 
 For the genre:
 
@@ -68,7 +70,7 @@ For the genre:
 go run main.go genre
 ```
 
-*Here's a list of searchable genres: Action, Adult, Adventure, Animation, Biography, Comedy, Crime, Documentary, Drama, Family, Fantasy, Film-Noir, History, Horror, Musical, Mystery, Romance, Sci-Fi, Short, Sport, Thriller, War, Western*
+Here's a list of searchable genres: *Action, Adult, Adventure, Animation, Biography, Comedy, Crime, Documentary, Drama, Family, Fantasy, Film-Noir, History, Horror, Musical, Mystery, Romance, Sci-Fi, Short, Sport, Thriller, War, Western*
 
 ## 🍿 Step Five
 
